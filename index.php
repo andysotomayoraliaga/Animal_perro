@@ -1,11 +1,11 @@
 <?php
-require_once('gato.php');
+require_once('perro.php');
 
-$gatito=new gato("1","michi",new persona("a1","juan","mendoza"),"5 cm");
-echo $gatito->getid();
+$perrito=new perro("1","goofy",new persona("a1","jose","cardona"),"10 cm");
+echo $perrito->getid();
 echo "<br>";
-echo $gatito->getnombre();
+echo $perrito->getnombre();
 echo "<br>";
-echo $gatito->gettamaño_bigote();
+echo $perrito->getnombre_perro();
 echo "<br>";
 echo $gatito->getpersona();
